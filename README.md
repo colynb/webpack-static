@@ -11,13 +11,21 @@ Dev build
 Dev server
 ```
 > yarn s
-```asdasdddd
+```
 
 Prod build
 ```
 > yarn p
 ```
 
-asdasd
+### Deploy to AWS S3
+
+Copy `.env.example` to `.env` then add your AWS credentials and details
+
+Upload to S3
+
+```
+> yarn u
+```
 
 
