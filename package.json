@@ -1,7 +1,7 @@
 {
-  "name": "webpack-static",
+  "name": "webpack-static-s3",
   "version": "1.0.0",
-  "description": "Bootstrap static site generator using Webpack",
+  "description": "Bootstrap a static site generator using Webpack - deploy to S3",
   "main": "index.js",
   "scripts": {
     "d": "webpack -d",
@@ -27,8 +27,6 @@
     "image-webpack-loader": "^3.3.1",
     "node-sass": "^4.5.3",
     "postcss-loader": "^2.0.5",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
     "s3": "^4.4.0",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.1",
