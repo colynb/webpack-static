@@ -3,6 +3,14 @@ Bootstrap a static site generator using Webpack - deploy to S3
 
 Use Webpack to build your static site, then deploy to S3!
 
+Webpack config currently includes:
+
+ - CSS/SASS Loader
+ - File/Image Loader
+ - Babel Loader
+ 
+### Development
+
 Dev build
 ```
 > yarn d
